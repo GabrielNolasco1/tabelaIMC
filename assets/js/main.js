@@ -41,11 +41,11 @@ function descobrirNivelImc (imc) {
     const tabelaImc = ['Abaixo do peso', 'Peso normal', 'Sobrepeso', 'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3'];
 
     if (imc < 18.5) return tabelaImc[0];
-    if (imc >= 18.5) return tabelaImc[1];
-    if (imc >= 25) return tabelaImc[2];
-    if (imc >= 30) return tabelaImc[3];
-    if (imc >= 35) return tabelaImc[4];
-    if (imc >= 40) return tabelaImc[5];
+    if (imc <= 25) return tabelaImc[1];
+    if (imc <= 29.9) return tabelaImc[2];
+    if (imc <= 35) return tabelaImc[3];
+    if (imc <= 39.9) return tabelaImc[4];
+    if (imc >= 40) return tabelaImc[5];   
           
 }
 
