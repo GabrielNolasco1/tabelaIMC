@@ -92,12 +92,20 @@ form button:active {
         justify-content: center;
         align-items: center;
         max-width: 500px;
-        max-height: 100vh;
         margin: 25px;
+        max-height: 100vh;
     }
 
+    #form {
+        display: relative;
+    }
     .container article {
         display: none;
     }
+
+    .resultado {
+        display: absolute;
+    }
+}
 
 }
