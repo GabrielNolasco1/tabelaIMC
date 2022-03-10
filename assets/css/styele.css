@@ -92,6 +92,7 @@ form button:active {
         justify-content: center;
         align-items: center;
         max-width: 500px;
+        max-height: 100vh;
         margin: 25px;
         position: absolute;
         top: 0;
