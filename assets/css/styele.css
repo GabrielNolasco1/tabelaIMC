@@ -79,8 +79,19 @@ form button:active {
     background: rgb(235, 123, 123);
 }
 
+@media (min-width: 501px) {
+    .container header .mobile {
+        display: none;
+    } 
+}
+
 @media (max-width: 500px) {
-    .container header h1 {
+
+    .container header .desktop {
+        display: none;
+    }
+
+    .container header .mobile {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -106,6 +117,4 @@ form button:active {
     .resultado {
         display: absolute;
     }
-}
-
 }
